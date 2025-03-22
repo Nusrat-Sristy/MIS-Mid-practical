@@ -106,3 +106,52 @@ footer {
     height:50 px;
     bottom: 0;
 }
+
+/* Product Grid Styles */
+.product-grid {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.product-card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 350px; /* Minimized height */
+}
+
+.product-card img {
+    max-width: 100%;
+    height: 150px; /* Adjusted size */
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    margin-top: 1rem;
+}
+
+.product-card p {
+    margin-top: 0.5rem;
+}
+
+.product-card button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 1rem;
+}
+
+.product-card button:hover {
+    background-color: #218838;
+}
